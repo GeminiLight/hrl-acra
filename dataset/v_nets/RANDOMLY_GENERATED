@@ -1,0 +1,1 @@
+By default, virtual network requests (VNRs) are randomly generated. You can generate the same VNRs by fixing the random seed.
