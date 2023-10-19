@@ -1,6 +1,6 @@
 # Code for HRL-ACRA
 
-This is the implementation of our paper, "Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning", which is currently undergoing review by TSC.
+This is the implementation of our paper, "Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning", accepted by IEEE Transactions on Services Computing (TSC).
 
 ## Installation
 
