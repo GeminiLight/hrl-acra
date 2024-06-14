@@ -23,7 +23,7 @@ class VNERLEnv(gym.Env):
         self.degree_benchmark = self.p_net.degree_benchmark
         self.node_attr_benchmarks = self.p_net.node_attr_benchmarks
         self.link_attr_benchmarks = self.p_net.link_attr_benchmarks
-        self.link_sum_attr_benchmarks = self.p_net.link_sum_attr_benchmarks
+        self.link_sum_attr_benchmarks = self.p_net.get_link_sum_attr_benchmarks()
         self.reward_weight = kwargs.get('reward_weight', 0.1)
         # for revocable action
         self.revoked_actions_dict = defaultdict(list)
