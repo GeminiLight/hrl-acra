@@ -1,6 +1,6 @@
 # Code for HRL-ACRA
 
-This is the implementation of our paper, "Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning", accepted by IEEE Transactions on Services Computing (TSC).
+This is the implementation of our paper, "[Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10291038)", accepted by IEEE Transactions on Services Computing (TSC).
 
 ## Installation
 
@@ -40,7 +40,7 @@ python main.py \
 ```bash
 python main.py \
 --solver_name="hrl_ac" \
---subsolver_name="hrl_ra" \
+--sub_solver_name="hrl_ra" \
 --eval_interval=10 \
 --num_train_epochs=500 \
 --summary_file_name="exp-wx_100-hrl_ac-training.csv" \
@@ -116,7 +116,7 @@ Here, you can replace `$SOLVER_NAME` with `pg_cnn2` and `a3c_gcn`.
 ```bash
 python main.py \
 --solver_name=$SOLVER_NAME \
---subsolver_name="hrl_ra" \
+--sub_solver_name="hrl_ra" \
 --num_train_epochs=0 \
 --summary_file_name="exp-wx_100-baselines-testing.csv" \
 --pretrained_model_path=$PretrainedBaselineModelPath
@@ -335,3 +335,24 @@ link_attrs_setting:
     owner: link
     type: resource
 ```
+
+## Citation
+
+If you find this code useful, please cite our paper:
+
+```
+@ARTICLE{tfwang-tsc-2024-hrl-acra,
+  author={Wang, Tianfu and Shen, Li and Fan, Qilin and Xu, Tong and Liu, Tongliang and Xiong, Hui},
+  journal={IEEE Transactions on Services Computing}, 
+  title={Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning}, 
+  year={2024},
+  volume={17},
+  number={3},
+  pages={1001-1015},
+}
+```
+
+## Related Resources
+
+- [Virne](https://github.com/GeminiLight/virne) is a simulator for resource allocation problems in network virtualization.
+- [SDN-NFV-Papers](https://github.com/GeminiLight/sdn-nfv-papers) is a paper list about Resource Allocation in Network Functions Virtualization (NFV) and Software-Defined Networking (SDN).
