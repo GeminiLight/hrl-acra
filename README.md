@@ -1,13 +1,13 @@
 # Code for HRL-ACRA
 
-This is the implementation of our paper, "[Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10291038)", accepted by IEEE Transactions on Services Computing (TSC).
-
-## Installation
-
 > [!IMPORTANT]
 > :sparkles: The foundation model of HRL-ACRA has been integrated into our benchmark [Virne](https://github.com/GeminiLight/virne)
 > 
 > :sparkles: You can easily run it with a specific solver name `ppo_gat_seq2seq+` in Virne!
+
+This is the implementation of our paper, "[Joint Admission Control and Resource Allocation of Virtual Network Embedding via Hierarchical Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10291038)", accepted by IEEE Transactions on Services Computing (TSC).
+
+## Installation
 
 It is suggested to enable the GPU to accelerate the training and inference process.
 
