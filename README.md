@@ -4,6 +4,11 @@ This is the implementation of our paper, "[Joint Admission Control and Resource 
 
 ## Installation
 
+> [!IMPORTANT]
+> :sparkles: The foundation model of HRL-ACRA has been integrated into our benchmark [Virne](https://github.com/GeminiLight/virne)
+> 
+> :sparkles: You can easily run it with a specific solver name `ppo_gat_seq2seq+` in Virne!
+
 It is suggested to enable the GPU to accelerate the training and inference process.
 
 ### With GPU
